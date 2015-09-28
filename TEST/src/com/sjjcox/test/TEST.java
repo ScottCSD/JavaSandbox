@@ -3,17 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package helloworldapp;
-
+package com.sjjcox.test;
 /**
- * com.sjjcox.package
+ *
  * @author scox
  */
-public class HelloWorldApp {
+public class TEST {
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Hello There!");
+        System.out.println("package name test");
     }
 }
