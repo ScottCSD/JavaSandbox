@@ -50,6 +50,7 @@ public class DeskFan {
         df.changeSpeed();
         df.changeOsillation();
         df.printStatus();
+        
         df.onoff();
         df.changeSpeed();
         df.changeOsillation();
