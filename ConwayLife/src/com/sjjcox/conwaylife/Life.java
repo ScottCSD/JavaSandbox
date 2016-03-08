@@ -15,6 +15,7 @@ public class Life {
         Cell[][] cells = new Cell[100][100];
         System.out.println("Starting");
         
+        /* Build Universe */
         for(int x = 0; x < 100; x++) {
             for(int y = 0; y < 100; y++) {
                 System.out.println("x = " + x + "; y = " + y);
