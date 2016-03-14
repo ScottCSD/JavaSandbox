@@ -6,7 +6,6 @@
 package com.sjjcox.battleship;
 
 /**
- *
  * @author scox
  */
 public class Battleship {
@@ -14,8 +13,12 @@ public class Battleship {
     /**
      * @param args the command line arguments
      */
+    
+    public Grid _grid;
+    
     public static void main(String[] args) {
         System.out.print("Battleship\n");
+        
+        new Grid().CreateGrid(); 
     }
-    
 }
